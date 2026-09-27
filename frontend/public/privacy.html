@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — StudyHub</title>
+  <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('studyhub_theme'); } catch (e) {}
+      document.documentElement.dataset.theme = saved || 'dark';
+    })();
+  </script>
+  <link rel="stylesheet" href="css/auth.css" />
+  <style>
+    body { max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem; background: var(--ink-950); color: var(--text); font-family: var(--font-body); line-height: 1.7; }
+    h1 { font-family: var(--font-display); }
+    h2 { font-family: var(--font-display); font-size: 1.1rem; margin-top: 2rem; }
+    a { color: var(--blue-soft); }
+    p { color: var(--text-dim); }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">← Back to StudyHub</a></p>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: 2026. This is a hackathon project. Here's what StudyHub stores and why.</p>
+  <h2>1. Account data</h2>
+  <p>Your name, email, role (student/teacher), and institution, so login and the right dashboard work.</p>
+  <h2>2. Your content</h2>
+  <p>Notes, questions, calendar events, and messages you create, so the features that show them back to you (and, where relevant, your class) work.</p>
+  <h2>3. Who sees what</h2>
+  <p>Your teacher can see your class activity. Other students can see what you post in shared spaces like Community. Nothing is sold or shared outside StudyHub.</p>
+  <h2>4. Questions</h2>
+  <p>This is a student project — reach out to the person who built it for anything specific.</p>
+</body>
+</html>
